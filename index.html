@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="assets/images/favicon.ico">
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- JAVASCRIPT -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/dcdfaed4b6.js" crossorigin="anonymous"></script>
+  <title>Valhalla</title>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <section id="header">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark menu">
+      <span id="logo-text"><a class="navbar-brand" href="#">V A L H A L L A</a></span>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="true" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse collapse show" id="navbarColor01">
+        <ul class="navbar-nav ml-auto ">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Log-In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Registration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- TITLE DESCRIPTION -->
+    <div class="title-dsc">
+      <div class="row">
+        <div class="col col-lg-6 col-md-12">
+          <h1>Vallhalla is a platform where you can order any gaming console or put your console to order </h1>
+          <button type="button" class="btn btn-dark btn-lg down-btn"><i class="fab fa-apple btn_dwnld"></i> Download</button>
+          <button type="button" class="btn btn-secondary btn-lg down-btn"><i class="fab fa-google-play btn_dwnld"></i> Download</button>
+        </div>
+        <div class="col col-lg-6 col-md-12">
+          <img src="assets/images/ps4.png" id="ps4">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ORDER -->
+  <section id="order">
+    <div class="row">
+      <div class="col col_1">
+        <div class="img col-div-1"><img src="assets/images/ps5.png" alt=""></div>
+        <center>
+          <div class="card" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Make an order</h5>
+              <p class="card-text">Here you can click the botton and order ps4/PS5/XBOX.</p>
+              <button type="button" class="btn btn-dark btn-lg orderBtn">Make an order</button>
+            </div>
+          </div>
+        </center>
+      </div>
+
+      <div class="col col_2">
+        <div class="img col-div-2"><img src="assets/images/xbox.png" alt=""></div>
+        <center>
+          <div class="card card2" style="width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Place an order</h5>
+              <p class="card-text">Place your game console on the site, any user can order it from you </p>
+              <button type="button" class="btn btn-dark btn-lg">Place an order</button>
+            </div>
+          </div>
+        </center>
+      </div>
+    </div>
+  </section>
+
+
+<!-- CONTACTS -->
+  <div class="container">
+    <div class="row">
+      <div class="col col-lg-6 col-md-12">
+        <div class="card">
+          <div class="card-header bg-primary text-white"><i class="fa fa-envelope"></i> Contact us.
+          </div>
+          <div class="card-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email" required>
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="6" required></textarea>
+              </div>
+              <div class="mx-auto">
+                <button type="submit" class="btn btn-primary text-right">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 contact-data">
+        <div class="card bg-light mb-3">
+          <div class="card-header bg-success text-white text-uppercase"><i class="fa fa-home"></i> Address</div>
+          <div class="card-body">
+            <p>Astana IT University</p>
+            <p>140012 PAVLODAR</p>
+            <p>KAZAKHSTAN</p>
+            <p>Email : karibay.91@mail.ru</p>
+            <p>Tel. +776-819-08-02</p>
+          </div>
+
+        </div>
+        <ul class="messengers">
+          <li><a href="https://www.youtube.com/channel/UC0ELN-jBmY5LPAeZXAwKDxA/featured"><img src="assets/images/youtube.png" width="30"></a></li>
+          <li>
+          <li><a href="https://myaccount.google.com/profile"><img src="assets/images/google.png" width="30"></a></li>
+          <li><a href="https://www.facebook.com/sanzhar.karibay.71/"><img src="assets/images/facebook.png" width="30"></a></li>
+          <li><a href="https://www.instagram.com/_karibay_/"><img src="assets/images/inst.png" width="30"></a></li>
+          <li><a href="https://vk.com/karibay_s"><img src="assets/images/vk.png" width="30"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+<!-- FOOTER -->
+  <footer class="text-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-lg-4 col-xl-3">
+          <h5>About</h5>
+          <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+          <p class="mb-0">
+            Vallhalla is a platform where you can order any gaming console or put your console to order.
+          </p>
+        </div>
+
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto">
+          <h5>Informations</h5>
+          <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+          <ul class="list-unstyled">
+            <li><a href="">Link 1</a></li>
+            <li><a href="">Link 2</a></li>
+            <li><a href="">Link 3</a></li>
+            <li><a href="">Link 4</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto">
+          <h5>Others links</h5>
+          <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+          <ul class="list-unstyled">
+            <li><a href="">Link 1</a></li>
+            <li><a href="">Link 2</a></li>
+            <li><a href="">Link 3</a></li>
+            <li><a href="">Link 4</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 col-lg-3 col-xl-3">
+          <h5>Contact</h5>
+          <hr class="bg-white mb-2 mt-0 d-inline-block mx-auto w-25">
+          <ul class="list-unstyled">
+            <li><i class="fa fa-home mr-2"></i> Valhalla </li>
+            <li><i class="fa fa-envelope mr-2"></i> vallhala@mail.com</li>
+            <li><i class="fa fa-phone mr-2"></i> + 33 12 14 15 16</li>
+            <li><i class="fa fa-print mr-2"></i> + 33 12 14 15 16</li>
+          </ul>
+        </div>
+        <div class="col-12 copyright mt-3">
+          <p class="float-left">
+            <a href="#">Back to top</a>
+          </p>
+          <p class="text-right text-muted">created with <i class="fa fa-heart"></i> by <a href="https://t-php.fr/43-theme-ecommerce-bootstrap-4.html"><i>t-php</i></a> | <span>v. 1.0</span></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

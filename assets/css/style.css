@@ -1,0 +1,113 @@
+/* GENERAL */
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* SECTION HEADER */
+#header {
+  background-image: url('soldier.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+}
+
+#logo-text {
+  margin-left: 100px;
+}
+
+.title-dsc {
+  margin-top: 140px;
+  padding-left: 50px;
+}
+
+#ps4 {
+  margin-bottom: 50px;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.down-btn {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+/* SECTION ORDER */
+.col {
+  height: 850px;
+  padding-top: 100px;
+}
+
+.col_1 {
+  background-color: #343a40;
+  padding-top: 140px;
+  text-align: center;
+}
+
+.col_2 {
+  text-align: center;
+  background-color: #6c757d;
+}
+
+.img {
+  border-radius: 20%;
+  height: 450px;
+}
+
+.col-div-2 {
+  margin-top: 20px;
+}
+
+/* CONTACTS */
+#contacts {
+  height: 150px;
+}
+
+.references {
+  height: 20px;
+}
+
+ul.messengers li {
+  padding-left: 20px;
+  float: right;
+  text-decoration: none;
+  list-style-type: none;
+  display: table-cell;
+  text-align: center;
+}
+
+ul.messengers li {
+  display: table-cell;
+  valign: bottom;
+}
+
+.messengers img {
+  transition: 1s;
+}
+
+.messengers img:hover {
+  transform: scale(1.4);
+}
+
+ul.messengers {
+  display: table;
+  margin: auto;
+  margin-right: 55px;
+}
+
+.card2 {
+  margin-top: 20px;
+}
+
+.contact-data {
+  margin-top: 100px;
+}
+
+footer {
+  background: #343a40;
+  padding: 40px;
+}
+
+footer a {
+  color: #f8f9fa !important
+}
